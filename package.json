@@ -1,8 +1,8 @@
 {
-  "name": "PWA",
+  "name": "pwa-sw",
   "version": "1.0.0",
-  "description": "SW ",
-  "main": "app.js",
+  "description": "PWA-service work",
+  "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --env --hot --inline --colors --config ./webpack.config.dev.js",
     "build": "webpack --config webpack.config.prod.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/erbing/gobang.git"
+    "url": "git+https://github.com/erbing/PWA-SW.git"
   },
   "author": "zigzag",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/erbing/gobang/issues"
+    "url": "https://github.com/erbing/PWA-SW/issues"
   },
-  "homepage": "https://github.com/erbing/gobang#readme",
+  "homepage": "https://github.com/erbing/PWA-SW#readme",
   "dependencies": {
     "babel": "^6.23.0",
     "babel-core": "^6.26.3",
