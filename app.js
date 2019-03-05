@@ -1,1 +1,3 @@
-const a = 123
+const dom = document.getElementById('app')
+dom.innerHTML = '1234'
+
